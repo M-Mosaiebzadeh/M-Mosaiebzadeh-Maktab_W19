@@ -1,0 +1,84 @@
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://use.fontawesome.com/releases/v5.6.1/css/all.css";
+
+html {
+    background: #F1F8E9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 300ms ease-in-out;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+.alert {
+    padding: 0.2rem 1rem;
+    color: #fff;
+    background: #00E676;
+}
+.alert.alert-success {
+    background: #00E676;
+}
+.alert.alert-danger {
+    background: #F50057;
+}
+
+.person {
+    width: 70%;
+    padding: 2rem 3rem;
+    margin: 2rem auto;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.person table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.person table th, .person table td {
+    padding: 0.3rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+.person table .delete {
+    display: block;
+    color: #F44336;
+    text-align: center;
+}
+.person table .delete:hover {
+    color: #B71C1C;
+}
+.person-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.person-title span {
+    color: #03A9F4;
+}
+.person-form {
+    margin-bottom: 1rem;
+}
+.person-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+.person-form .form-group label {
+    padding: 0.5rem 0;
+}
+.person-form #add {
+    display: block;
+    width: 100%;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    background: #03A9F4;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.person-form #add:hover {
+    background: #1565C0;
+}

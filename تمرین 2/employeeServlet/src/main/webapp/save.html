@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="save.css" type="text/css">
+</head>
+<body>
+
+<script src="save.js"></script>
+
+<div class="person">
+    <h2 class="person-title">
+        <span>Person </span>List
+    </h2>
+    <!--   <div class="alert alert-danger">message</div> -->
+    <form class="person-form" action="saveServlet" method="post">
+        <div class="form-group">
+            <label for="first-name">Fist Name</label>
+            <input type="text" id="first-name" name="firstname">
+        </div>
+        <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="lastname">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <input id="add" type="submit" value="Add employee">
+    </form>
+</div>
+
+</body>
+</html>
